@@ -39,7 +39,7 @@ $articles = Article::find()
 
 上述例子中，为 [[yii\data\Sort|Sort]] 对象声明了两个属性： `age` 和 `name`。
 
-`age` 属性是 `Article` 与 Active Record 类中 `age` 属性对应的一个简单属性。
+`age` 对应 `活动记录Article` 类中的 `age` 属性。
 上述声明与下述等同：
 
 ```php
